@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: create
+# key: create
+# --
+
+create table if not exists ${1:table_name} (
+       id int(11) not null auto_increment comment '自增主键',
+       ${2:name} ${3:varchar(45)} not null default '${4:}' comment '${5:名称}',
+       c_time timestamp not null default current_timestamp,
+       u_time timestamp not null default current_timestamp on update current_timestamp,
+       index idx_c_time (c_time)
+) engine=InnoDB default character set utf8mb4 collate utf8mb4_general_ci comment="${6:表备注}";

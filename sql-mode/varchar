@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: varchar
+# key: varchar
+# --
+
+${1:f} varchar(${2:85}) not null default '' comment '${3:}',

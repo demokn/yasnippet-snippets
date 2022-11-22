@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: text
+# key: text
+# --
+
+${1:f} ${2:text} comment '${3:}',
