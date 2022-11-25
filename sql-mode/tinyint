@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: tinyint
+# key: tinyint
+# --
+
+${1:f} tinyint not null default 0 comment '${2:}',
