@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: mediumint
+# key: mediumint
+# --
+
+${1:f} mediumint not null default 0 comment '${2:}',

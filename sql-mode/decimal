@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: decimal
+# key: decimal
+# --
+
+${1:f} decimal(${2:20},${3:8}) not null default 0 comment '${4:}',

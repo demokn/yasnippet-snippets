@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: bigint
+# key: bigint
+# --
+
+${1:f} bigint not null default 0 comment ${2:},
