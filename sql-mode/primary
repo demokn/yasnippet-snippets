@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: primary
+# key: primary
+# --
+
+primary key (${1:id}),
