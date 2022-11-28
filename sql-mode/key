@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: key
+# key: key
+# --
+
+key idx_${1:} ($1),

@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: index
-# key: index
-# --
-
-index idx_${1:} ($1),
