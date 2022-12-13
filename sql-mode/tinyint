@@ -3,4 +3,4 @@
 # key: tinyint
 # --
 
-${1:f} tinyint not null default 0 comment '${2:}',
+tinyint not null default 0 comment '${1:}',

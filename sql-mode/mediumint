@@ -3,4 +3,4 @@
 # key: mediumint
 # --
 
-${1:f} mediumint not null default 0 comment '${2:}',
+mediumint not null default 0 comment '${1:}',

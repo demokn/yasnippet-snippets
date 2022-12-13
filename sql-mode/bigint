@@ -3,4 +3,4 @@
 # key: bigint
 # --
 
-${1:f} bigint not null default 0 comment ${2:},
+bigint not null default 0 comment ${1:},

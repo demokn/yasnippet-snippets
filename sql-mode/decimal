@@ -3,4 +3,4 @@
 # key: decimal
 # --
 
-${1:f} decimal(${2:20},${3:8}) not null default 0 comment '${4:}',
+decimal(${1:20},${2:8}) not null default 0 comment '${3:}',

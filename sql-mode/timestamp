@@ -3,4 +3,4 @@
 # key: timestamp
 # --
 
-${1:f} timestamp not null default current_timestamp ${2:on update current_timestamp} comment '${3:}',
+timestamp not null default current_timestamp ${1:on update current_timestamp} comment '${2:}',
