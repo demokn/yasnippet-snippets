@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+# name: gtddev
+# key: gtddev
+# --
+
+**** TODO 方案设计
+
+**** TODO 开发 [%]
+
+**** TODO 自测
+
+**** TODO 上线
+- [ ] 项目 [/]
+  - [ ] project1
+
+- [ ] SQL
+#+begin_src sql
+#+end_src
+
+- [ ] CRON
+#+begin_src crontab
+#+end_src
+
+**** 遗留问题
