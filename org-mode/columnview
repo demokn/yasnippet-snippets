@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: columnview
+# key: columnview
+# --
+#+BEGIN: columnview :hlines 0 :indent "t" :id "ID"
+#+END:

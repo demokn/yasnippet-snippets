@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: columns
+# key: columns
+# --
+%35ITEM(任务) %5TODO(状态) %Effort(预估用时){:} %SCHEDULED(预计开始) %DEADLINE(预计结束) %CLOSED(完成时间) %CLOCKSUM(耗时)
