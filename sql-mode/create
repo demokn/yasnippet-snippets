@@ -3,12 +3,11 @@
 # key: create
 # --
 
-create table if not exists ${1:table_name} (
+create table ${1:table_name} (
        id int(11) not null auto_increment comment '自增主键',
-       ${2:name} ${3:varchar(45)} not null default '${4:}' comment '${5:名称}',
-       m_time timestamp not null default current_timestamp comment '最近修改时间',
-       c_time timestamp not null default current_timestamp comment '创建时间',
-       u_time timestamp not null default current_timestamp on update current_timestamp comment '更新时间',
+       ${2:column_1} ${3:varchar(45)} not null default '${4:}' comment '${5:字段备注}',
+       create_time timestamp not null default current_timestamp comment '创建时间',
+       update_time timestamp not null default current_timestamp on update current_timestamp comment '更新时间',
        primary key (id),
-       key idx_c_time (c_time)
-) engine=InnoDB default character set utf8mb4 collate utf8mb4_general_ci comment='${6:表备注}';
+       key idx_create_time (create_time)
+) engine=InnoDB DEFAULT CHARSET=utf8mb4 comment='${6:表备注}';
